@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Widget.Tare19.AppWidget.Container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:theme="@style/Theme.Tare19.AppWidgetContainer">
+
+    <Button
+        android:id="@+id/canva"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Canva" />
+
+
+    <Button
+        android:id="@+id/notas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/canva"
+        android:layout_centerHorizontal="true"
+        android:text="Notas" />
+
+
+</RelativeLayout>
